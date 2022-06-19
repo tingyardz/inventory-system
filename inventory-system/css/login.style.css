@@ -1,0 +1,76 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+}
+a{
+
+    text-decoration: none;
+}
+.container{
+
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right,#00c6ff,#0072ff);
+}
+.wrapper{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+}
+.container .wrapper h1{
+    font-size: 80px;
+    color: cornflowerblue;
+    text-shadow: 5px 5px 10px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 20px;
+    margin-bottom: 20px;
+}
+.container .wrapper .sub-wrapper{
+
+    width: 450px;
+    height: 300px;
+    background-color: gainsboro;
+    margin: auto;
+}
+.container .wrapper .sub-wrapper h2{
+
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.container .wrapper .sub-wrapper form{
+
+    width: 100%;
+    text-align: center;
+}
+.container .wrapper .sub-wrapper form input{
+
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.container .wrapper .sub-wrapper form button{
+
+    padding: 8px 12px;
+    width: 100px;
+}
+.container .username-error, .password-error{
+    width: 100%;
+    background-color: rgb(255, 50, 50);
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: none;
+}
